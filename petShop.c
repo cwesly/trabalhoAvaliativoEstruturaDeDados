@@ -11,6 +11,8 @@ typedef struct Animal
     struct Animal proximo;
 } Animal;
 
+Animal *inicio = NULL;
+
 int main()
 {
     int opcao = 1;
